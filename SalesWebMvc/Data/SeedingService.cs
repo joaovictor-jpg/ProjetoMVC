@@ -31,13 +31,13 @@ namespace SalesWebMvc.Data
 
             Seller s1 = new Seller(1, "João", "joaovictor@gmail.com", new DateTime(2000, 3, 16), 5000.0, d1);
             Seller s2 = new Seller(2, "Lucas", "Lucas@gmail.com", new DateTime(1997, 6, 12), 5000.0, d1);
-            Seller s3 = new Seller(3, "Vitor", "Vitor@gmail.com", new DateTime(1997, 2, 19), 5000.0, d1);
+            Seller s3 = new Seller(3, "Vitor", "Vitor@gmail.com", new DateTime(1997, 2, 19), 5000.0, d2);
             Seller s4 = new Seller(4, "Gabriel", "Gabriel@gmail.com", new DateTime(1996, 12, 30), 5000.0, d3);
             Seller s5 = new Seller(5, "Douglas", "Douglas@gmail.com", new DateTime(1996, 6, 20), 5000.0, d3);
-            Seller s6 = new Seller(6, "David", "David@gmail.com", new DateTime(1998, 1, 23), 5000.0, d3);
+            Seller s6 = new Seller(6, "David", "David@gmail.com", new DateTime(1998, 1, 23), 5000.0, d2);
             Seller s7 = new Seller(7, "Carol", "Carol@gmail.com", new DateTime(2000, 4, 4), 5000.0, d4);
             Seller s8 = new Seller(8, "Bianca", "Biaca@gmail.com", new DateTime(2001, 3, 31), 5000.0, d4);
-            Seller s9 = new Seller(9, "Karla", "Karla@gmail.com", new DateTime(2000, 7, 16), 5000.0, d4);
+            Seller s9 = new Seller(9, "Karla", "Karla@gmail.com", new DateTime(2000, 7, 16), 5000.0, d2);
 
             SelesRecord r1 = new SelesRecord(1, new DateTime(2021, 09, 25), 11000.0, SaleStatus.Billed, s1);
             SelesRecord r2 = new SelesRecord(2, new DateTime(2021, 09, 4), 7000.0, SaleStatus.Billed, s5);
